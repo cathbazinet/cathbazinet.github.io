@@ -1,0 +1,245 @@
+
+/*Commentaire en CSS*/
+
+p.descriptapropos
+{
+	width:50%;
+	margin:40px;
+	margin-top:40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 15px;
+	font-family:'PT Serif','Merriweather','Droid Serif', serif;
+	border:none;
+	background-color: #F4F4F4;
+	opacity: 0.7;
+}
+
+html
+{
+background-image: url(imagesp/background_final.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+aside
+{
+	position: absolute;
+	right: 80px;
+	top: 120px;
+	bottom: 0px;
+	left: 840px;
+}
+
+header
+{
+	top:0;
+	z-index: 10;
+}
+
+h2
+{
+	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
+	margin-left:65px;
+	margin-top: 50px;
+	font-size: 20px; 
+}
+p.longtext
+{
+	width:90%;
+	margin:40px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 15px;
+	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
+	border:none;
+	background-color: #F4F4F4;
+	opacity: 0.7;
+}
+section.encadrephoto
+{
+	border-collapse: separate;
+	margin-left: 75px;
+	margin-right: 70px;
+	max-width: 100%;
+}
+img.pic
+{
+	width:180px;
+	height: 130px;
+	box-shadow: 3px 3px 6px dimgray;
+}
+img.picbig
+{
+	width: 0px;
+	position: absolute;
+	left:32%;
+	top:14%;
+	-webkit-transition: width 0.3s linear 0s;
+	transition: width 0.3s linear 0s;
+	z-index: 9;
+	box-shadow: 3px 3px 5px gray;
+}
+img.pic:hover + img.picbig
+{
+	width: 440px;
+}
+img.photoemail
+{
+	opacity:0.8;
+	padding-left:50px;
+	padding-right:80px;
+	padding-top: 10px;
+}
+img.phonecontact
+{
+	opacity:0.8;
+	padding-left:100px;
+	padding-right:40px;
+	padding-top: 10px;
+}
+p.contactext
+{
+	width:90%;
+	margin:40px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 16px;
+	font-family: 'PT Serif', serif,'Merriweather', serif,'Droid Serif', serif;
+	border:none;
+	background-color: #FFFFFF;
+	opacity: 0.7;
+}
+
+section.defreal
+{
+	margin-top: 35px;
+}
+section.defcontact
+{
+	margin-top: 5px;
+	margin-left: 250px;
+}
+p.texteportrait
+{
+	width:42%;
+	margin:40px;
+	margin-top:5px;
+	margin-bottom:230px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 15px;
+	font-family:'PT Serif','Merriweather','Droid Serif', serif;
+	border:none;
+	background-color: #F4F4F4;
+	opacity: 0.7;
+}
+aside.portraitposition1
+{
+	position: absolute;
+	right: 40px;
+	top: 610px;
+	bottom: 0px;
+	left: 650px;
+}
+aside.portraitposition2
+{
+	position: absolute;
+	right: 10px;
+	top: 780px;
+	bottom: 0px;
+	left: 60px;
+}
+aside.portraitposition3
+{
+	position: absolute;
+	right: 10px;
+	top: 780px;
+	bottom: 0px;
+	left: 340px;
+}
+
+section.essais
+{
+	top:600px;
+}
+
+img.anais
+{
+	box-shadow: 2px 2px 9px #000000;
+	margin-left:400px;
+	margin-right:5px;
+	
+}
+
+button {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 7px #000000;
+  margin-left:380px;
+}
+
+button:hover {background-color: black}
+
+button:active {
+  background-color: gray;
+  box-shadow: 0 5px #000000;
+  transform: translateY(4px);
+}
+img.moi
+{
+opacity:0.9;
+box-shadow: 2px 2px 7px #000000;
+border: 2px solid gray;
+margin-left:15px;
+margin-right:10px;
+margin-top:0px;
+}	
+img.coeur
+{
+opacity:0.9;
+margin-left:5px;
+margin-right:5px;
+box-shadow: 2px 2px 7px #000000;
+border: 2px solid gray;
+}	
+img.ami
+{
+opacity:0.9;
+margin-left:10px;
+box-shadow: 2px 2px 7px #000000;
+border: 2px solid gray;
+margin-right:5px;
+}	
+h1
+{
+	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
+	margin-left:50px;
+	margin-top: 50px;
+	font-size: 20px; 
+}
