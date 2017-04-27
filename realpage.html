@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+<title>Portfolio</title>
+<link rel="icon" href="imagesp/logo2.png">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif|Merriweather|PT+Serif" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<figure><a href="index.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/cb1.png';" onmouseover="this.src='imagesp/cb2.png';" src="imagesp/cb1.png" title="Catherine Bazinet - Portfolio" /></a>
+<img src="imagesp/blanc.png" height="47" alt="espace" />
+<a href="index.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/accueil.png';" onmouseover="this.src='imagesp/accueil2.png';" src="imagesp/accueil.png" title="Accueil" /></a>
+<a href="apropospage.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/apropos1.png';" onmouseover="this.src='imagesp/apropos2.png';" src="imagesp/apropos1.png" title="À propos" /></a>
+<a href="realpage.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/real2.png';" onmouseover="this.src='imagesp/real2.png';" src="imagesp/real2.png" title="Réalisations" /></a>
+<a href="contactpage.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/contacts1.png';" onmouseover="this.src='imagesp/contacts2.png';" src="imagesp/contacts1.png" title="Contacts" /></a>
+</figure>
+</header>
+
+<section class="defreal">
+<h2> Un amour (in)fini </h2>
+<p class="longtext">Les images suivantes montrent le fruit d'une création qui par le biais de manipulation de fils de fer forme une sculpture. Celle-ci représente une danseuse voyant le temps se liquéfier devant elle pour se reconstruire et former son passé. Les fracas de miroir reflètent une image déconstruite de soi ainsi que le corps séparé et inachevé de cette figure féminine, exprime le déchirement qu'un être peu avoir face aux thèmes du temps, de l'amour et de l'image de la femme. À la base de la sculpture, on peut y lire des questions abordant ces sujets. Ceci a pour but d'approfondir l'interprétation des récepteurs ainsi que de lancer des pistes de réflexion chez eux.  
+</br> </br> Avec ce projet de session de mon DEC, j'ai voulu chercher diverses réactions de la part des récepteurs tout en créant un contact hors de l'ordinaire entre une création de fer possédant une forme humaine et de taille réelle. C'est une certaine volonté de voir les gens s'en approcher, observer et se déplacer tout autour pour en comprendre son sens.</p>
+</section>
+
+<section class="encadrephoto"> 
+<img class="pic" src="imagesp/sculp6.jpg" alt="picture1" />
+<img class="picbig" src="imagesp/sculp6.jpg" alt="picture1" /> 
+
+<img class="pic" src="imagesp/sculp1.jpg" alt="picture2"/>
+<img class="picbig" src="imagesp/sculp1.jpg" alt="picture2"/>
+
+<img class="pic" src="imagesp/sculp3.jpg" alt="picture3" />
+<img class="picbig" src="imagesp/sculp3.jpg" alt="picture3" /> 
+
+<img class="pic" src="imagesp/sculp5.jpg" alt="picture4" /> 
+<img class="picbig" src="imagesp/sculp5.jpg" alt="picture4" /> 
+
+<img class="pic" src="imagesp/sculp4.jpg" alt="picture5" /> 
+<img class="picbig" src="imagesp/sculp4.jpg" alt="picture5" /> 
+
+<img class="pic" src="imagesp/sculp2.jpg" alt="picture6" />
+<img class="picbig" src="imagesp/sculp2.jpg" alt="picture6" /> 
+
+</section>
+
+<section>
+<h2> La pensée du moment </h2>
+<p class="texteportrait"> C’est dans l’idée de fusionner l’écriture de nos pensées et l’immortalité d’un moment photographié que j’ai fait ce projet. Pendant quelques heures, je me suis baladée dans les rues de Montréal à la recherche de personnes qui voudraient bien prendre une photo de type portrait et répondre à une question. Sans leur expliquer plus mon but, j’ai exécuté mon projet. Je leur ait donc posé cette question: <em>Que pensiez-vous durant la prise de la photo?</em> Pour découvrir leurs réponses, je vous invite à survoler les différents portraits. </p>
+<aside class="portraitposition1">
+<img alt="Survol" height="350" onmouseout="this.src='imagesp/english_final1.png';" onmouseover="this.src='imagesp/english_final2.png';" src="imagesp/english_final1.png" />
+</aside>
+<aside class="portraitposition2">
+<img alt="Survol" height="180" onmouseout="this.src='imagesp/homme_final1.png';" onmouseover="this.src='imagesp/homme_final2.png';" src="imagesp/homme_final1.png" />
+</aside>
+<aside class="portraitposition3">
+<img alt="Survol" height="180" onmouseout="this.src='imagesp/femme_final1.png';" onmouseover="this.src='imagesp/femme_final2.png';" src="imagesp/femme_final1.png" />
+</aside>
+</section>
+
+
+<h2>Essais photographiques</h2>
+<p class="longtext">Pour ce projet, j’ai travaillé en collaboration avec Simon Desroches. Ensemble, nous avons fait diverses expérimentations en étant dans un environnement contrôlé puis en les modifiant sur Photoshop pour obtenir ce résultat. Notre thème principal était basé sur les néons pour faire ressortir la couleur de la lumière. Alors, ce sont avec de simples portraits que nous avons exploité cette thématique pour en faire un tout surprenant. </p>
+
+<script>
+function light(sw) {
+    var pic;
+    if (sw == 0) {
+        pic = "imagesp/neon.jpg"
+    } else {
+        pic = "imagesp/anais.jpg"
+    }
+    document.getElementById('myImage').src = pic;
+}
+</script>
+
+<img class="anais" id="myImage" src="imagesp/anais.jpg" width="425" height="280">
+<p class="bouton">
+<button type="button" onclick="light(1)"><strong>«</strong></button>
+<button type="button" onclick="light(0)"><strong>»</strong></button>
+</body>
+
+</html> 
