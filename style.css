@@ -164,24 +164,24 @@ aside.portraitposition1
 	right: 50px;
 	top: 1000px;
 	bottom: 10px;
-	left: 100px;
+	left: 0px;
 	float: right;
 }
 aside.portraitposition2
 {
 	position: absolute;
-	margin-right: 10px;
-	margin-top: 1000px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	right: 10px;
+	top: 1000px;
+	bottom: 10px;
+	left: 10px;
 }
 aside.portraitposition3
 {
 	position: absolute;
-	margin-right: 10px;
-	margin-top: 1000px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	right: 10px;
+	top: 1000px;
+	bottom: 10px;
+	left: 10px;
 }
 
 
