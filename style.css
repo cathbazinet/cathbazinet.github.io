@@ -1,6 +1,11 @@
 
 /*Commentaire en CSS*/
 
+body
+{
+	width:100%;
+}
+
 p.descriptapropos
 {
 	width:50%;
