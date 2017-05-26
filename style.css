@@ -161,25 +161,27 @@ p.texteportrait
 aside.portraitposition1
 {
 	position: absolute;
-	top: 610px;
+	right: 50px;
+	top: 1000px;
 	bottom: 10px;
+	left: 300px;
 	float: right;
 }
 aside.portraitposition2
 {
 	position: absolute;
 	margin-right: 10px;
-	margin-top: 0px;
+	margin-top: 1000px;
 	margin-bottom: 10px;
-	margin-left: 60px;
+	margin-left: 10px;
 }
 aside.portraitposition3
 {
 	position: absolute;
 	margin-right: 10px;
-	margin-top: 0px;
+	margin-top: 1000px;
 	margin-bottom: 10px;
-	margin-left: 340px;
+	margin-left: 10px;
 }
 
 
