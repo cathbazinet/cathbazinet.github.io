@@ -4,6 +4,9 @@
 body
 {
 	width:100%;
+        margin:auto;
+	min-width:1250px;
+	max-width:1250px;
 }
 
 p.descriptapropos
