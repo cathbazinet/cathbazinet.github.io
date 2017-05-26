@@ -161,33 +161,58 @@ p.texteportrait
 aside.portraitposition1
 {
 	position: absolute;
-	right: 40px;
+	margin-right: 50px;
 	top: 610px;
-	bottom: 0px;
-	left: 650px;
+	bottom: 10px;
+	margin-left: 650px;
+	float: right;
 }
 aside.portraitposition2
 {
 	position: absolute;
-	right: 10px;
-	top: 780px;
-	bottom: 0px;
-	left: 60px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 60px;
 }
 aside.portraitposition3
 {
 	position: absolute;
-	right: 10px;
-	top: 780px;
-	bottom: 0px;
-	left: 340px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 340px;
 }
+
 
 section.essais
 {
 	top:600px;
 }
-
+h3
+{
+	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
+	margin-left:65px;
+	margin-top: 200px;
+	font-size: 20px; 
+}
+p.longtext2
+{
+	width:90%;
+	margin:40px;
+	margin-top:10px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+	font-size: 15px;
+	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
+	border:none;
+	background-color: #F4F4F4;
+	opacity: 0.7;
+}
 img.anais
 {
 	box-shadow: 2px 2px 9px #000000;
