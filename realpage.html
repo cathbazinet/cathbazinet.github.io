@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
 <meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css" />
 <title>Portfolio</title>
 <link rel="icon" href="imagesp/logo2.png">
 <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Merriweather|PT+Serif" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
+
+<div class="container-fluid">
 
 <header>
 <figure><a href="index.html"><img alt="Survol" height="80" onmouseout="this.src='imagesp/cb1.png';" onmouseover="this.src='imagesp/cb2.png';" src="imagesp/cb1.png" title="Catherine Bazinet - Portfolio" /></a>
@@ -51,21 +55,20 @@
 
 
 <section>
-<div class="gauche">
-<div>
 <h2> La pensée du moment </h2>
-<p class="texteportrait"> C’est dans l’idée de fusionner l’écriture de nos pensées et l’immortalité d’un moment photographié que j’ai fait ce projet. Pendant quelques heures, je me suis baladée dans les rues de Montréal à la recherche de personnes qui voudraient bien prendre une photo de type portrait et répondre à une question. Sans leur expliquer plus mon but, j’ai exécuté mon projet. Je leur ait donc posé cette question: <em>Que pensiez-vous durant la prise de la photo?</em> Pour découvrir leurs réponses, je vous invite à survoler les différents portraits. </p>
+<div class="row">
+<div class="col-xs-12 col-md-6"><p class="texteportrait"> C’est dans l’idée de fusionner l’écriture de nos pensées et l’immortalité d’un moment photographié que j’ai fait ce projet. Pendant quelques heures, je me suis baladée dans les rues de Montréal à la recherche de personnes qui voudraient bien prendre une photo de type portrait et répondre à une question. Sans leur expliquer plus mon but, j’ai exécuté mon projet. Je leur ait donc posé cette question: <em>Que pensiez-vous durant la prise de la photo?</em> Pour découvrir leurs réponses, je vous invite à survoler les différents portraits. </p>
 </div>
-<div class="portraitposition2">
+<div class="col-xs-6 col-sm-3">
 <img alt="Survol" height="180" onmouseout="this.src='imagesp/homme_final1.png';" onmouseover="this.src='imagesp/homme_final2.png';" src="imagesp/homme_final1.png" />
 </div>
-<div class="portraitposition3">
+<div class="col-xs-3 col-sm-3">
 <img alt="Survol" height="180" onmouseout="this.src='imagesp/femme_final1.png';" onmouseover="this.src='imagesp/femme_final2.png';" src="imagesp/femme_final1.png" />
 </div>
 </div>
 
-<div class="droite">
-<div class="portraitposition1">
+<div class="row">
+<div class="col-xs-12 col-md-6">
 <img alt="Survol" height="350" onmouseout="this.src='imagesp/english_final1.png';" onmouseover="this.src='imagesp/english_final2.png';" src="imagesp/english_final1.png" />
 </aside>
 </div>
@@ -91,6 +94,8 @@ function light(sw) {
 <p class="bouton">
 <button type="button" onclick="light(1)"><strong>«</strong></button>
 <button type="button" onclick="light(0)"><strong>»</strong></button>
+
+</div>
 </body>
 
 </html> 
