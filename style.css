@@ -173,8 +173,8 @@ td.portraitposition2
 	margin-right: 10px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	margin-left: 100px;
-	padding-left:150px;
+	margin-left: 200px;
+	padding-left:250px;
 }
 td.portraitposition3
 {
@@ -182,12 +182,15 @@ td.portraitposition3
 	margin-right: 20px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	margin-left: 0px;
+	margin-left: 50px;
 	padding-left:50px;
-	border:solid black 1px;
 }
 
-
+table
+{
+	border:solid black 1px;
+	
+}
 
 section.essais
 {
