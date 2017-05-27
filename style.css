@@ -174,7 +174,6 @@ td.portraitposition2
 	margin-top: 0px;
 	margin-bottom: 10px;
 	margin-left: 340px;
-	padding-left: 340px;
 }
 td.portraitposition3
 {
@@ -188,7 +187,7 @@ td.portraitposition3
 
 table
 {
-	margin-bottom: 40px;
+	margin-bottom: 100px;
 	
 }
 
@@ -200,7 +199,7 @@ h3
 {
 	font-family: 'PT Serif','Merriweather','Droid Serif', serif;
 	margin-left:65px;
-	margin-top: 520px;
+	margin-top: 620px;
 	font-size: 20px; 
 }
 p.longtext2
