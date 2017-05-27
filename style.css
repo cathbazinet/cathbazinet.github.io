@@ -158,7 +158,7 @@ p.texteportrait
 	background-color: #F4F4F4;
 	opacity: 0.7;
 }
-.portraitposition1
+td.portraitposition1
 {
 	position: absolute;
 	right: 50px;
@@ -167,7 +167,7 @@ p.texteportrait
 	left: 650px;
 	float: right;
 }
-.portraitposition2
+td.portraitposition2
 {
 	position: absolute;
 	margin-right: 10px;
@@ -175,7 +175,7 @@ p.texteportrait
 	margin-bottom: 10px;
 	margin-left: 100px;
 }
-.portraitposition3
+td.portraitposition3
 {
 	position: absolute;
 	margin-right: 20px;
